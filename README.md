@@ -11,7 +11,7 @@ Este é o projecto foi implementado em Java usando a biblioteca Swing (interface
   
   ou
   
-  Fazer: 
+  Fazer: <br>
           1- Compilar:   javac *.java  (enter)
           2- Executar:   java Login    (enter)
           
