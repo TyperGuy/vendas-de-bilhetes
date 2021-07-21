@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Material_File.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Manipulacao do ficheiro de Materiais: Material.dat
 --------------------------------------------------------------*/
 import SwingComponents.*;

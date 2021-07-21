@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Funcionario_GUI.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Visão/Interface para cadastro de novo funcionario
 --------------------------------------------------------------*/
 import Calendario.JTextFieldData;
@@ -109,8 +109,8 @@ public class Funcionario_GUI extends JFrame {
 		grupo.add( femininoJRB );
 		p1.add( painelSexo );
 
-        p1.add(new JLabel(" Nacionalidade"));
-        p1.add( nacionalidadeJC = UInterfaceBox.createJComboBoxsTabela2(Defs.FILE_NACIONALIDADE) );
+        p1.add(new JLabel("Subsidio"));
+        p1.add( nacionalidadeJC = UInterfaceBox.createJComboBoxsTabela2(Defs.FILE_SUBSIDIO) );
 
         p1.add( new JLabel(" Local de Trabalho") );
         p1.add( localTrabalhoJC = UInterfaceBox.createJComboBoxsTabela2(Defs.FILE_LOJAS) );
@@ -215,7 +215,7 @@ public class Funcionario_GUI extends JFrame {
                 + "\n Estado Civil: " + getEstadoCivil() 
                 + "\n Data de Nascimento: " + getDataNascimento() 
                 + "\n Sexo: " + getSexo() 
-                + "\n Nacionalidade: " + getNacionalidade() 
+                + "\n Subsidio: " + getNacionalidade() 
                 + "\n Local de Trabalho: " + getLocalTrabalho() 
                 + "\n }";
     }

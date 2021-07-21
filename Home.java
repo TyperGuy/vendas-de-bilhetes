@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Home.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Visão/Interface principal
 --------------------------------------------------------------*/
 import SwingComponents.*;
@@ -35,12 +35,12 @@ public class Home extends JFrame implements ActionListener {
         tabelas = new Menu("Tabela");
         notaFiscal = new Menu("Nota Fiscal");
         pesquisar = new Menu("Pesquisar");
-        listagens = new Menu("Listagens");
+        listagens = new Menu("Defesa");
         ajuda = new Menu("Ajuda");
         
         exame = new Menu("Exame");
-        exame.add( defesa = new MenuItem("Defesa") );
-        listagens.add( exame );
+        //exame.add( defesa = new MenuItem("Defesa") );
+        listagens.add( defesa = new MenuItem("Pesquisa Defesa"));
 
         ficheiro.add( sair = new MenuItem("Sair") );
 
@@ -62,8 +62,10 @@ public class Home extends JFrame implements ActionListener {
         tabelas.add( tipoCliente = new MenuItem("Tipo de Cliente") );
         tabelas.add( loja = new MenuItem("Lojas") );
         tabelas.add( estadoCivil = new MenuItem("Estado Civil") );
-        tabelas.add( nacionalidade = new MenuItem("Nacionalidade") );
+        tabelas.add( nacionalidade = new MenuItem("Subsidiu") );
         tabelas.add( valorIva = new MenuItem("Valor de IVA") );
+
+        listagens.add(nacionalidade);
 
         pesquisar.add( pesqFUN_porLoja = new MenuItem("Pesquisar funcionarios por Loja") );
         pesquisar.add( pesqFUN_porSexo = new MenuItem("Pesquisar funcionarios por Sexo") );    
@@ -93,7 +95,7 @@ public class Home extends JFrame implements ActionListener {
 	public void adicionarEventos()
 	{
         sair.addActionListener(this);
-        defesa.addActionListener(this);
+        //defesa.addActionListener(this);
 
         novoFuncionario.addActionListener(this);
         visualizarFuncionario.addActionListener(this);
@@ -159,7 +161,7 @@ public class Home extends JFrame implements ActionListener {
             Tabela2.editarNovosItems(Defs.FILE_ESTADO_CIVIL, "Novo Estado Civil");
 
         else if (evt.getSource() == nacionalidade)
-            Tabela2.editarNovosItems(Defs.FILE_NACIONALIDADE, "Nova Nacionalidade");
+            Tabela2.editarNovosItems(Defs.FILE_SUBSIDIO, "Novo Subsidio");
 
         else if (evt.getSource() == valorIva)
             Tabela2.editarNovosItems(Defs.FILE_VALOR_IVA, "Novo Valor de IVA");

@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Funcionario_File.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Manipulacao do ficheiro de Funcionario: Funcionarios.dat
 --------------------------------------------------------------*/
 import SwingComponents.*;

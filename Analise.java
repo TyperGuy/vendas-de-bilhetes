@@ -1,26 +1,26 @@
 /* ************************************************************************************************** */
 /*  UCAN: Universidade Catolica de Angola                                                             */
 /*  Ficheiro : Analise.java                                                                           */
-/*  Autor: Edson Paulo Gregório                                                                       */
-/*  Numero: 20973                                                                                     */
+/*  Autor: Raimundo Tony                                                                       */
+/*  Numero: 20830                                                                                    */
 /*  Tutor: Osvaldo Ramos                                                                              */
 /*  Descricao: Analise do Projecto.                                                                   */
-/*  Tema: Gestão de Recursos de uma Empresa de venda de materias de Construção                        */
-/*  Data: 28.11.2019                                                                                  */
+/*  Tema: Sistema de Venda de materias de Construção                        */
+/*  Data: 02.07.2021                                                                                  */
 /* ************************************************************************************************** */
 /*
 
 ANALISE DO PROJECTO
 
 Este é o projecto final da cadeira de FPII que será implementado em Java usando Swing e 
-ficheiros para arquivar os dados.
+ficheiros .dat e .tab para arquivar os dados. 
 
 1-Definicao:
-    Software de Gestão de Recurso de Empresa de Venda
+    Sistema de Venda de materias de Construção 
 	
 1.1- Objectivo:
-	Pretende-se desenvolver uma aplicacao de gestao de recursos de uma Empresa de 
-        venda de materiais de construção. 
+	Pretende-se desenvolver um sistema de venda de material de construção
+        para uma empresa que possui varias filiais e varios clientes. 
 	 
 2. GUI
     Login
@@ -96,7 +96,7 @@ Menu principal
                         - estadoCivil             : string [15]
                         - dataNascimento          : string [15]
                         - sexo                    : string [10]
-                        - nacionalidade           : string [15]
+                        - subsidio                : string [15]
                         - localTrabalho           : string [20]
                                 139 bytes
                                 sizeOf() = 139 * 2 - 4
@@ -135,6 +135,6 @@ Menu principal
 
 6. Diversos
         - Linguagem de Programacao: Java
-        - Data de Entrega e Defesa: 02/12/2019
+        - Data de Entrega e Defesa: 02/07/2021
         - Orientador: Osvaldo Ramos
 */

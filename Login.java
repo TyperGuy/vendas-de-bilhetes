@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Login.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Visão/Interface de Login
 --------------------------------------------------------------*/
 import Calendario.JTextFieldData;
@@ -26,7 +26,7 @@ public final class Login extends JFrame {
         entrar.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
                 try {
-                    if( getLogin().equalsIgnoreCase("edsonpaulo") && getSenha().equalsIgnoreCase("12345") )
+                    if( getLogin().equalsIgnoreCase("raimundo") && getSenha().equalsIgnoreCase("12345") )
                     {
                         new Home();
                         SwingComponents.Vector_Tabelas.inic();
@@ -46,7 +46,7 @@ public final class Login extends JFrame {
         getContentPane().add(new JLabel("   "), BorderLayout.NORTH);
         getContentPane().add(p2, BorderLayout.SOUTH);
 
-        setSize(200, 230);
+        setSize(200, 260);
         setResizable(false);
         setLocationRelativeTo(null);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);

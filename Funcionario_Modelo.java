@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Funcionario_Modelo.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Modelo para entidade funcionario
 --------------------------------------------------------------*/
 import SwingComponents.*;
@@ -86,7 +86,7 @@ public class Funcionario_Modelo implements RegistGeneric {
             + "\n Estado Civil: " + getEstadoCivil() 
             + "\n Data de Nascimento: " + getDataNascimento() 
             + "\n Sexo: " + getSexo() 
-            + "\n Nacionalidade: " + getNacionalidade() 
+            + "\n Subsidio: " + getNacionalidade() 
             + "\n Local de Trabalho: " + getLocalTrabalho() 
             + "\n\n";
     }

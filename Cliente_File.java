@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Cliente_File.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Manipulacao do ficheiro de Clientes: Clientes.dat
 --------------------------------------------------------------*/
 import SwingComponents.*;

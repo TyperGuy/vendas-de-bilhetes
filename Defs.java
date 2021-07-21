@@ -14,7 +14,7 @@ public class Defs
     public static final String FILE_COMUNAS = "fileComunas.tab";
     public static final String FILE_LOJAS = "fileLojas.tab";
     public static final String FILE_TIPO_CLIENTE = "fileTipoCliente.tab";
-    public static final String FILE_NACIONALIDADE = "fileNacionalidade.tab";
+    public static final String FILE_SUBSIDIO = "fileNacionalidade.tab";
     public static final String FILE_ESTADO_CIVIL = "fileEstadoCivil.tab";
     public static final String FILE_VALOR_IVA = "fileValorIva.tab";
     

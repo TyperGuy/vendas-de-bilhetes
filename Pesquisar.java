@@ -21,8 +21,10 @@ public class Pesquisar extends JFrame {
     public Pesquisar(final String entidade, final String criterioDePesquisa ) {
         super("Pesquisar " + entidade + " por "+criterioDePesquisa);
 
-         if( entidade.equals("funcionarios") && criterioDePesquisa.equals("loja"))
+         if( entidade.equals("funcionarios") && criterioDePesquisa.equals("loja")){
+            p1.setLayout(new FlowLayout());
             p1.add( lojasJC = UInterfaceBox.createJComboBoxsTabela2(Defs.FILE_LOJAS) );
+            }
 
         else if( entidade.equals("funcionarios") && criterioDePesquisa.equals("sexo"))
             p1.add( sexoJC = new JComboBox(sexo));

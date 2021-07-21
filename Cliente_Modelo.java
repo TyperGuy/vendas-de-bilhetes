@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Cliente_Modelo.java
-Autor: Edson Gregório
+Autor: Raimundo Tony
 Objectivo: Modelo para entidade Cliente
 --------------------------------------------------------------*/
 import SwingComponents.*;

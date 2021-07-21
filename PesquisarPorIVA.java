@@ -12,6 +12,7 @@ import java.util.StringTokenizer;
 
 public class PesquisarPorIVA extends JFrame {
 
+    private JTable myTable;
     private JPanel p1 = new JPanel( new FlowLayout() );
     private List Lista;
     private JButton pesquisar = new JButton("Pesquisar");
@@ -27,6 +28,7 @@ public class PesquisarPorIVA extends JFrame {
             }
         });
 
+        
         getContentPane().setLayout(new GridLayout(3, 1, 10, 10));
         getContentPane().add( new JLabel(" Selecione o valor de IVA: "));
         getContentPane().add( ivaJC = UInterfaceBox.createJComboBoxsTabela2(Defs.FILE_VALOR_IVA) );

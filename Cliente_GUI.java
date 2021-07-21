@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------
 Ficheiro: Cliente_GUI.java
-Autor: Edson Gregório
+Autor:Raimundo Tony
 Objectivo: Visão/Interface para cadastro de novo cliente
 --------------------------------------------------------------*/
 
